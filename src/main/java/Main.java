@@ -7,7 +7,7 @@ public class Main {
 
     public static void main(String[] args) throws SQLException, ClassNotFoundException {
 
-        Query query = new Query();
-        query.getData();
+        Controller control = new Controller();
+        control.start();
     }
 }
